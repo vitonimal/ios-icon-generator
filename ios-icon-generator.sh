@@ -159,46 +159,24 @@ fi
 # 
 # name size
 sizes_mapper=`cat << EOF
-AppIcon-16x16         16
-AppIcon-16x16@2x      32
-AppIcon-32x32         32
-AppIcon-32x32@2x      64
-AppIcon-128x128        128
-AppIcon-128x128@2x     256
-AppIcon-256x256        256
-AppIcon-256x256@2x     256
-AppIcon-512x512        512
-AppIcon-512x512@2x     1024
 AppIcon-512@2x     1024
-AppIcon-20x20         20
 AppIcon-20x20@1x         20
 AppIcon-20x20@2x      40
 AppIcon-20x20@2x-1      40
 AppIcon-20x20@3x      60
-AppIcon-29x29         29
 AppIcon-29x29@1x         29
 AppIcon-29x29@2x      58
 AppIcon-29x29@2x-1      58
 AppIcon-29x29@3x      87
-AppIcon-40x40         40
 AppIcon-40x40@1x         40
 AppIcon-40x40@2x      80
 AppIcon-40x40@2x-1      80
 AppIcon-40x40@3x      120
 AppIcon-60x60@2x      120
 AppIcon-60x60@3x      180
-AppIcon-76x76         76
 AppIcon-76x76@1x         76
 AppIcon-76x76@2x      152
 AppIcon-83.5x83.5@2x    167
-AppIcon-1024x1024       1024
-AppIcon-24x24@2x      48
-AppIcon-27.5x27.5@2x    55
-AppIcon-86x86@2x      172
-AppIcon-98x98@2x      196
-AppIcon-108x108@2x     216
-AppIcon-44x44@2x      88
-AppIcon-50x50@2x      100
 EOF`
 
 OLD_IFS=$IFS
